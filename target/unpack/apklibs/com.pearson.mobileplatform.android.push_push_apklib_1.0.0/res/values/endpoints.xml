@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="push_registration">http://ecollege-test.apigee.net/push-registration/v1/mobile/apps/%1$s/users/%2$s/registrations/%3$s?api_key=%4$s</string>
+
+</resources>
