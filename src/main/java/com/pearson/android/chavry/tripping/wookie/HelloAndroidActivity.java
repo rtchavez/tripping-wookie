@@ -2,16 +2,16 @@ package com.pearson.android.chavry.tripping.wookie;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 
 public class HelloAndroidActivity extends Activity {
 
     /**
      * Called when the activity is first created.
-     * @param savedInstanceState If the activity is being re-initialized after 
-     * previously being shut down then this Bundle contains the data it most 
-     * recently supplied in onSaveInstanceState(Bundle). <b>Note: Otherwise it is null.</b>
+     *
+     * @param savedInstanceState If the activity is being re-initialized after
+     *                           previously being shut down then this Bundle contains the data it most
+     *                           recently supplied in onSaveInstanceState(Bundle). <b>Note: Otherwise it is null.</b>
      */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -21,9 +21,9 @@ public class HelloAndroidActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-	// Inflate the menu; this adds items to the action bar if it is present.
-	getMenuInflater().inflate(com.pearson.android.chavry.tripping.wookie.R.menu.main, menu);
-	return true;
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
     }
 
 }
